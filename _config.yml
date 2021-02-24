@@ -10,7 +10,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #-------------------------------
 # About Section
 author-name:   Natali Anderson
-author-avatar: 09.jpg
+author-avatar: /img/09.jpg
 
 
 #-------------------------------
