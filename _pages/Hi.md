@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Merhaba
 image: 08.jpg
 permalink: /merhaba/
 ---
