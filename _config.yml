@@ -60,10 +60,10 @@ sass:
 
 #-------------------------------
 # Exclude from processing.
-# exclude:
+exclude:
 #   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
+   - Gemfile.lock
+   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
