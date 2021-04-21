@@ -6,7 +6,7 @@ image:  04.jpg
 tags:   Art
 ---
 
-Merhaba sonunda vakit ayırıp şu [blog][blog]u açabildim. Zaman ilerledikçe burayı besleyeceğim. Makaleler, trickler, araçkar, faydalı gördüğüm her şey...
+Merhaba sonunda vakit ayırıp şu [blog][blog]u açabildim. Zaman ilerledikçe burayı besleyeceğim. Makaleler, trickler, araçlar, faydalı gördüğüm her şey...
 
 {% highlight python %} 
 Esen Kalın
