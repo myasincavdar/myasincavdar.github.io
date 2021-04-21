@@ -6,4 +6,10 @@ image:  04.jpg
 tags:   Art
 ---
 
-Merhaba Dünya
+Merhaba sonunda vakit ayırıp şu [blog][blog]u açabildim. Zaman ilerledikçe burayı besleyeceğim. Makaleler, trickler, araçkar, faydalı gördüğüm her şey...
+
+{% highlight python %} 
+Esen Kalın
+{% endhighlight %}
+
+[blog]: https://myasincavdar.github.io/
