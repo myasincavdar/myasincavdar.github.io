@@ -10,7 +10,7 @@ layout: default
 			<article class="article-first">
 				{% assign post_image = post.image %}
 
-<div class="article-image-first" style="background-image: url({{ post_image }})">
+<div class="article-image-first" style="background-image: url({{post_image}})">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
@@ -44,7 +44,7 @@ layout: default
 						<div class="article-head">
 							{% assign post_image = post.image %}
 
-<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{ post_image }})">
+<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{post_image}})">
 								<div class="image-overlay">
 									<span class="image-overlay-text">{{post.title}}</span>
 								</div>
