@@ -8,9 +8,7 @@ layout: default
 		{% if forloop.index <= 1 %}
 		<div class="col col-12">
 			<article class="article-first">
-				{% assign post_image = post.image %}
-
-<div class="article-image-first" style="background-image: url({{post_image}})">
+				<div class="article-image-first" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 					<div class="article-content-first">
 						<div class="article-tag">
 						{% if post.tags.size >= 1 %}
@@ -24,7 +22,6 @@ layout: default
 						<a href="{{ post.url | prepend: site.baseurl }}" class="button read-more">Read More</a>
 					</div>
 				</div>
-
 			</article> <!-- /.article-first -->
 		</div>
 		{% endif %}
@@ -42,14 +39,11 @@ layout: default
 				<article class="article col col-12 col-t-6">
 					<div class="article-box">
 						<div class="article-head">
-							{% assign post_image = post.image %}
-
-<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{post_image}})">
+							<a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{"/img/" | prepend: site.baseurl | append : post.image}})">
 								<div class="image-overlay">
 									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
 								</div>
 							</a>
-
 						</div>
 						<div class="article-content">
 							<div class="article-info">
