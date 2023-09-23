@@ -46,9 +46,10 @@ layout: default
 
 <a href="{{ post.url | prepend: site.baseurl }}" class="article-image" style="background-image: url({{post_image}})">
 								<div class="image-overlay">
-									<span class="image-overlay-text">{{post.title}}</span>
+									<span class="image-overlay-text">{{post.title | slice: 0}}</span>
 								</div>
 							</a>
+
 						</div>
 						<div class="article-content">
 							<div class="article-info">
